@@ -1,0 +1,12 @@
+CREATE TABLE USER (
+	USER_ID varchar2(20) NOT NULL,
+	FIRST_NAME varchar2(50),
+	LAST_NAME varchar2(50),
+	CONSTRAINT PK_USER_ID PRIMARY KEY (USER_ID)
+);
+
+INSERT INTO USER(USER_ID, FIRST_NAME, LAST_NAME) values ('1', 'Sasmita', 'Mallick');
+
+INSERT INTO USER(USER_ID, FIRST_NAME, LAST_NAME) values ('2', 'Amyra', 'Damania');
+
+INSERT INTO USER(USER_ID, FIRST_NAME, LAST_NAME) values ('3', 'Kiaan', 'Damania');
